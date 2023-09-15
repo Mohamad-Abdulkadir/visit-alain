@@ -1,0 +1,593 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#Home {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/Home/Al-ain-0008.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.nav-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-brand span {
+  color: #f00;
+}
+
+.nav-brand:hover {
+  color: blue;
+}
+
+.nav-brand span:hover {
+  color: #000;
+}
+
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-items li a:hover {
+  color: #f00;
+  border-bottom: solid 1px #f00;
+}
+
+.nav-items li a span {
+  color: #f00;
+}
+
+.nav-items li a span:hover {
+  color: #000;
+}
+
+.home-main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.home-main-text h1 {
+  font-size: calc(1.5rem + 2vw);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.home-main-text h1 span {
+  color: red;
+}
+
+.home-main-text p {
+  margin-top: 15px;
+  font-size: calc(0.5rem + 1vw);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+
+#Home nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: aliceblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  border: solid 1px #000;
+}
+
+.main-learn-more {
+  margin-top: 30px;
+  padding: 10px 30px;
+  border: solid 1px #f00;
+  background-color: #f00;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+#AlAin-Attractions {
+  height: 100%;
+  width: 100%;
+  /* border: solid 3px red; */
+  padding: 2%;
+  /* background-color: #02020A; */
+  background-color: #171738;
+}
+
+
+.attractions-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: solid 3px red; */
+  padding: 10px;
+}
+
+.attractions-main h1 {
+  font-size: calc(1.5rem + 2vw);
+  font-weight: bold;
+  color: aliceblue;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.attraction1 {
+  border: solid 3px white;
+  border-radius: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.attraction2 {
+  border: solid 3px white;
+  border-radius: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.attraction3 {
+  border: solid 3px white;
+  border-radius: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.attraction4 {
+  border: solid 3px white;
+  border-radius: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.attraction5 {
+  border: solid 3px white;
+  border-radius: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.attraction6 {
+  border: solid 3px white;
+  border-radius: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.attraction-text {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  
+}
+
+.attraction-text h1 {
+  font-size: calc(1.5rem + 1vw);
+  font-weight: bold;
+  color: #F45B69;
+  margin-bottom: 20px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.attraction-text p {
+  font-size: calc(0.5rem + 1vw);
+  /* color: #0e2a47; */
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+
+.attraction-img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+
+}
+
+.attraction-img img {
+  object-fit: cover;
+  transition: transform 0.8s;
+  width: 50%;
+  height: 50%;
+  border-radius: 16px;
+}
+
+.attraction-img:hover img {
+  transform: scale(1.1);
+}
+
+#Shopping-Malls {
+  min-height: 100vh;
+  width: 100%;
+  /* border: solid 3px red; */
+  background-color: #02020A;
+  padding: 2%;
+}
+
+.container h2 {
+  padding: 40px;
+  margin-top: 60px;
+  font-size: calc(1.5rem + 2vw);
+  text-align: center;
+  color: white;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.mall-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.mall {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mall img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform .5s;
+}
+
+.layer {
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), #ff004f);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 13px;
+  transition: height .5s;
+}
+
+.layer h3 {
+  color: #fff;
+  font-size: calc(2rem + 1vw);
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.layer p {
+  color: #fff;
+  font-size: calc(0.5rem + 1vw);
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+
+.layer a {
+  text-decoration: underline;
+  font-size: calc(0.5rem + 1vw);
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Inclusive Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+.mall:hover .layer {
+  height: 100%;
+
+}
+
+.mall:hover img {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+#Hotels {
+  min-height: 100vh;
+  min-width: 100%;
+  /* background-color: #02020A; */
+  background-color: white;
+  padding: 2%;
+}
+
+.articles {
+  width: 100%;
+  display: grid;
+  grid:
+    "ar-1 ar-2" 2fr "ar-3 ar-4" 2fr / 2fr 2fr;
+  gap: 8px;
+}
+
+.ar-1 {
+  grid-area: ar-1;
+}
+
+.ar-2 {
+  grid-area: ar-2;
+}
+
+.ar-3 {
+  grid-area: ar-3;
+}
+
+.ar-4 {
+  grid-area: ar-4;
+}
+
+.article-wrapper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.article-wrapper figure {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.article-wrapper figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.article-wrapper:hover figure img {
+  transform: scale(1.1);
+}
+
+.article-wrapper .article-body {
+  padding: 20px;
+}
+
+.article-wrapper .article-body h2 {
+  font-size: calc(1rem + 1vw);
+  margin-bottom: 10px;
+  font-family: 'Mukta', sans-serif;
+  color: #ff004f;
+}
+
+.article-wrapper .article-body p {
+  font-size: calc(0.5rem + 0.5vw);
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+
+.article-wrapper .article-body .read-more {
+  display: inline-block;
+  font-size: calc(0.5rem + 0.5vw);
+  color: #fff;
+  background-color: #000;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.article-wrapper .article-body .read-more:hover {
+  background-color: #333;
+}
+
+#Hotels h1 {
+  font-size: calc(1.5rem + 2vw);
+  text-align: center;
+  color: #000;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+
+#Plan-Trips {
+  min-width: 100%;
+  /* background-color: #02020A; */
+  background-color: #171738;
+  padding: 2%;
+}
+
+#Plan-Trips h1 {
+  font-size: calc(1.5rem + 2vw);
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form input {
+  width: 50%;
+  height: calc(1.5rem + 1vw);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form input {
+  font-size: calc(0.5rem + 1vw);
+}
+
+.form input:focus {
+  border: solid 4px #000;
+}
+
+.form input[type="submit"] {
+  width: 30%;
+  min-height: 40px;
+  padding-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: calc(0.5rem + 1vw);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: #000;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+.form input[type="reset"] {
+  width: 30%;
+  min-height: 40px;
+  padding-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: calc(0.5rem + 1vw);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: #000;
+  cursor: pointer;
+}
+
+.form input[type="reset"]:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+.form input[type="reset"]:focus {
+  border: black solid 1px;
+}
+
+
+.form select {
+  width: 50%;
+  height: calc(1.5rem + 1vw);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  font-size: calc(0.5rem + 0.75vw);
+}
+
+
+
