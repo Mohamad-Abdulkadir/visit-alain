@@ -385,7 +385,7 @@
 
 .layer p {
   color: #fff;
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.5rem + 0.5vw);
   font-weight: 500;
   margin-bottom: 10px;
   font-family: 'Inclusive Sans', sans-serif;
@@ -393,7 +393,7 @@
 
 .layer a {
   text-decoration: underline;
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.5rem + 0.5vw);
   font-weight: 500;
   color: #fff;
   letter-spacing: 1px;
